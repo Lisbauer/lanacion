@@ -59,7 +59,6 @@
     transition: 0.5s;
     background: #dcdc2062;
     color: rgba(0, 0, 0, 0.874);
-    /* background: linear-gradient(to right, #fff4b7, rgba(255, 204, 0, 0.653)); */
 }
 .loginButton{
     background: white;

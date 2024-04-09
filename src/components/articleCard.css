@@ -1,0 +1,34 @@
+.cardsSection{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 80px;
+}
+.articleCards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 1px rgba(128, 128, 128, 0.501);
+    width: 350px;
+}
+.articleCards h2{
+    font-size: 23px;
+    text-align: center;
+    padding: 0;
+    font-family: 'SuecaSlab', sans-serif;
+}
+.cardsImage1{
+    width: 100px;
+}
+.cardsImage2{
+    width: 330px;
+    padding-top: 10px;
+}
+.imageTextBox{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+

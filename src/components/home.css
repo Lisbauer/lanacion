@@ -1,14 +1,38 @@
-.home_title{
+.homeTitle{
     display: flex;
     justify-content: center;    
     text-align: center;
     background: #1C1C1F;
     height: 80px;
+    font-family: 'SuecaSlab', sans-serif;
 }
-.home_title h2{
+.homeTitle h2{
     color: white;
     font-size: 1.7em;
 }
-.anexo{
+.eclipseNew{
     background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.eclipseNew p{
+    text-align: center;
+    margin: 0;
+    font-size: 1.1em;
+    width: 50%;
+    padding: 20px;
+}
+.publicity{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.publicity h4{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 1px grey;
+    width: 130px;
 }

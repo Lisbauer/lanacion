@@ -1,0 +1,35 @@
+.cardSection{
+    text-align: center;
+    font-family: 'SuecaSlab', sans-serif;  
+    margin: 90px;
+}
+.cardSection h1{
+    font-size: 3em;
+}
+.cardGroupContent{
+    display: flex;
+    justify-content: center;
+  
+    gap: 30px;
+}
+.cardBox{
+    background: rgb(96, 0, 164);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.cardBox img{
+   width: 330px;
+   height: 410px;
+}
+.cardBox p{
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    width: 310px;
+    font-size: 0.9em;
+    background: rgb(96, 0, 164);
+    color: white;
+    margin: 0;
+    padding: 10px;
+}

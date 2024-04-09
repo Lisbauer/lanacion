@@ -1,0 +1,51 @@
+.footerContent{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 150px;
+}
+.categoriesBox{
+    display: flex;
+    gap: 20px;
+    font-size: 1em;
+}
+.categoriesBox a{
+    text-decoration: none;
+    color: #0250C9;
+}
+.footerLineContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.iconsBox{
+    display: flex;
+    gap: 30px;
+    font-size: 1.4em;
+}
+.footerLineContent h3{
+    font-size: 1.7em;
+    color: #006998;
+    font-family: 'Times New Roman', Times, serif;
+}
+.googleApple{
+    display: flex;
+    gap: 30px;
+}
+.googleApple img{
+    width: 110px;
+}
+.spanLine{
+    display: flex;
+    gap: 20px;
+    font-size: 0.8em;
+    margin-top: 20px;
+}
+.spanLine a{
+    text-decoration: none;
+    color: #0250C9;
+    font-weight: 700;
+}
+.copyright{
+    font-size: 0.8em;
+    margin-top: 20px;
+}
+
