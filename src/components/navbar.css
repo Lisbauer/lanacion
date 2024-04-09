@@ -110,3 +110,53 @@
 .benefits h4{
     font-weight: 100;
 }
+@media (max-width: 1000px) {
+    .financialInfo{
+        font-size: 12px;
+    }
+}
+@media (max-width: 800px) {
+    .navbarContent h1{
+        font-size: 1.8em;
+    }
+    .financialInfo{
+        font-size: 10px;
+    }
+    .searchField{
+        width: 90px;
+        font-size: 0.7em;
+    }
+    .sectionButton{
+        padding: 7px;
+        font-size: 0.7em;
+    }
+    .rightButtons button{
+        padding: 5px;
+        font-size: 0.6em;
+    }
+}
+@media (max-width: 600px) {
+    .navbarContent h1{
+        font-size: 1.3em;
+    }
+    .financialInfo{
+        font-size: 9px;
+    }
+    .searchField{
+        width: 80px;
+        font-size: 0.6em;
+    }
+    .sectionButton{
+        padding: 5px;
+        font-size: 0.7em;
+    }
+    .rightButtons button{
+        padding: 3px;
+        margin: 0;
+        display: flex;
+        margin: 3px;
+    }
+    .sectionButton span {
+        display: none;
+      }
+}

@@ -40,11 +40,40 @@
 .notarySmallText{
     font-weight: 400;
 }
+.dengueImage{
+    width: 70%;
+}
 .paragraphDengue{
     display: flex;
     flex-direction: column;
     align-items: start;
-    width: 1300px;
+    width: 70%;
     font-size: 0.8em;
+}
+
+@media (max-width: 900px) {
+    .notaryBox{
+        gap: 10px;
+    }
+    .notaryTextBox h3{
+        font-size: 0.9em;
+    }    
+    .notaryBox img{
+        width: 60px;
+    }
+}
+@media (max-width: 600px) {
+    .FirstNewContent h2{
+        font-size: 2em;
+    }
+    .FirstNewContent p{
+        font-size: 1em;
+    }
+    .notaryTextBox h3{
+        font-size: 0.6em;
+    }
+    .notaryBox img{
+        width: 40px;
+    }
 }
 

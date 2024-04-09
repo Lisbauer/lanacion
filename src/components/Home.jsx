@@ -13,9 +13,9 @@ const Home = () => {
         <div className='eclipseNew'>
             <p>El fenómeno astronómico del 8 de abril mantuvo entusiasmados a los estadounidenses; más de 30 millones de personas lo presenciaron en vivo; el próximo evento tendrá lugar en agosto de 2045</p>
             <p style={{fontSize:'0.9em', color:'grey'}}>8 de abril de 2024 17:56</p>
-            <img src="../images/eclipse.png" alt="eclipse" />
+            <img className='eclipseImage' src="../images/eclipse.png" alt="eclipse" />
             <p>Millones de personas en todo Estados Unidos vivieron en primera persona el eclipse solar total del 8 de abril de 2024</p>
-            <p style={{fontSize:'1em', color:'grey'}}>Foto de Rick Meyers en Unsplash</p>
+            <p className='eclipseAuthor'>Foto de Rick Meyers en Unsplash</p>
         </div>
         
         <div className='publicity'>

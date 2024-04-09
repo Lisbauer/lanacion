@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="leftButtons">
           <button className="sectionButton">
             {" "}
-            <FontAwesomeIcon icon={faBars} /> SECCIONES
+            <FontAwesomeIcon icon={faBars} /> <span>SECCIONES</span>
           </button>
           <input type="text" placeholder="BUSCAR" className="searchField" />
         </div>

@@ -30,7 +30,7 @@ const FirstNew = () => {
             </div>
           </div>
 
-          <img src="./images/dengue.png" alt="" />
+          <img className="dengueImage" src="./images/dengue.png" alt="" />
           <p style={{ fontSize: "1em" }}>
             Especialistas médicos refutaron argumentos expuestos en un
             comunicado del Ministerio de Salud de la Nación sobre el manejo de

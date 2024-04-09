@@ -25,6 +25,10 @@
     width: 50%;
     padding: 20px;
 }
+.eclipseAuthor{
+    font-size: 1em;
+    color: grey;
+}
 .publicity{
     text-align: center;
     display: flex;
@@ -35,4 +39,26 @@
     font-family: Arial, Helvetica, sans-serif;
     border: solid 1px grey;
     width: 130px;
+}
+@media (max-width: 900px) {
+    .homeTitle{
+        align-items: center;
+    }
+    .homeTitle h2{
+        font-size: 1.2em;
+    }
+    .eclipseNew p{
+        font-size: 0.9em;
+    }
+    .eclipseImage{
+        width: 70%;
+    }
+}
+@media (max-width: 500px) {
+    .homeTitle h2{
+        font-size: 0.9em;
+    }
+    .eclipseNew p{
+        font-size: 0.7em;
+    }
 }

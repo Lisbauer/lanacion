@@ -6,6 +6,7 @@
     display: flex;
     gap: 20px;
     font-size: 1em;
+    flex-wrap: wrap;
 }
 .categoriesBox a{
     text-decoration: none;
@@ -15,6 +16,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .iconsBox{
     display: flex;
@@ -38,6 +40,8 @@
     gap: 20px;
     font-size: 0.8em;
     margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .spanLine a{
     text-decoration: none;
@@ -48,4 +52,3 @@
     font-size: 0.8em;
     margin-top: 20px;
 }
-

@@ -16,7 +16,7 @@ const ArticleCard = () => {
             src="../images/articleman.png"
             alt="article man"
           />
-          <p>Author full name</p>
+          <p className="authorName">Author full name</p>
         </article>
 
         <article className="articleCards">
@@ -29,7 +29,7 @@ const ArticleCard = () => {
             Title cuando se dieron cuenta, los dos hermanos estaban preparandose
             para alunizar.
           </h2>
-          <p>Author / Marquee</p>
+          <p className="authorName">Author / Marquee</p>
         </article>
 
         <article className="articleCards">
@@ -43,7 +43,7 @@ const ArticleCard = () => {
               src="../images/articlewoman.png"
               alt="article man"
             />
-            <p>Author full name</p>
+            <p className="authorName">Author full name</p>
           </div>
         </article>
 
