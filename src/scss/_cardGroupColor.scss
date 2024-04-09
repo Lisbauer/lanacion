@@ -2,6 +2,7 @@
     @include flex(column, center, center);
     background: $cards;
     display: flex;
+    color: white;
     & img {
       width: 330px;
       height: 410px;
@@ -16,5 +17,5 @@
       margin: 0;
       padding: 10px;
     }
-  }
+}
   

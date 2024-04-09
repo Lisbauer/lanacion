@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import './scss/index.scss';
 import Navbar from './components/Navbar.jsx';
 import Home from './components/Home.jsx';
-import FirstNew from './components/FirstNew.jsx';
-import LeftFocusedArticle from './components/LeftFocusedArticle.jsx';
 import ArticleCard from './components/ArticleCard.jsx';
 import Footer from './components/Footer.jsx';
 import './components/fonts.css';
 import CardGroupColor from './components/CardGroupColor.jsx';
-import './scss/index.scss';
+import FirstNew from './components/FirstNew.jsx';
+import LeftFocusedArticle from './components/LeftFocusedArticle.jsx';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(

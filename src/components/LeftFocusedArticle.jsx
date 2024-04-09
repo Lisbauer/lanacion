@@ -30,7 +30,7 @@ const LeftFocusedArticle = () => {
             aficionada resalta la cercanía y el cariño que el jugador tiene
             hacia sus seguidores.
           </p>
-          <p className="authorName">Author / Marquee</p>
+          <p className="authorName">Patricio Perez</p>
           <img src="../images/messi.jpg" alt="messi" />
         </article>
 
@@ -40,7 +40,7 @@ const LeftFocusedArticle = () => {
             <h4>
             La fecha 13 de la Copa de la Liga Profesional 2024: partidos, horarios, posiciones, promedios y más
             </h4>
-            <p className="authorName">Author / Marquee</p>
+            <p className="authorName">Patricio Perez</p>
           </article>
 
           <article className="sideArticleRight">
@@ -48,7 +48,7 @@ const LeftFocusedArticle = () => {
             <h4>
               La picante palabra que usó Tata Martino para referirse al escándalo de Messi con el DT de Rayados: “Lo que tiene que ver con la…"
             </h4>
-            <p className="authorName">Author / Marquee</p>
+            <p className="authorName">Ana Rey</p>
           </article>
         </div>
       </div>

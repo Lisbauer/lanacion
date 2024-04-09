@@ -8,15 +8,14 @@ const ArticleCard = () => {
 
         <article className="articleCards">
           <h2>
-            Title cuando se dieron cuenta, los dos hermanos estaban preparandose
-            para alunizar.
+          El debate sobre la reforma judicial genera división y tensiones en Argentina.
           </h2>
           <img
             className="cardsImage1"
             src="../images/articleman.png"
             alt="article man"
           />
-          <p className="authorName">Author full name</p>
+          <p className="authorName">Felipe Gomez</p>
         </article>
 
         <article className="articleCards">
@@ -26,16 +25,14 @@ const ArticleCard = () => {
             alt="article man"
           />
           <h2>
-            Title cuando se dieron cuenta, los dos hermanos estaban preparandose
-            para alunizar.
+          Entrevista. Javier Milei con Fantino: “Cristina ya fue, no va a volver más”
           </h2>
-          <p className="authorName">Author / Marquee</p>
+          <p className="authorName">Carlos Garcia</p>
         </article>
 
         <article className="articleCards">
           <h2>
-            Title cuando se dieron cuenta, los dos hermanos estaban preparandose
-            para alunizar.
+          El aumento del desempleo crea preocupación en medio de la crisis económica.
           </h2>
           <div className="imageTextBox">
             <img
@@ -43,7 +40,7 @@ const ArticleCard = () => {
               src="../images/articlewoman.png"
               alt="article man"
             />
-            <p className="authorName">Author full name</p>
+            <p className="authorName">Estefania Cruz</p>
           </div>
         </article>
 

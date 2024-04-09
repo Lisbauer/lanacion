@@ -13,7 +13,7 @@ const Cards = () => {
             Emilia vivió una noche especial marcando el inicio de su
             viaje..
           </p>
-          <p className="authorName">Author / Marquee</p>
+          <p className="authorName">Morena Peretz</p>
         </div>
 
         <div className="cardBox">
@@ -21,7 +21,7 @@ const Cards = () => {
           <p>
             Tini pospuso sus shows en Buenos Aires debido a esta situación.
           </p>
-          <p className="authorName">Author / Marquee</p>
+          <p className="authorName">Marcos Redondo</p>
         </div>
 
         <div className="cardBox">
@@ -29,7 +29,7 @@ const Cards = () => {
           <p>
             María Becerra emocionó a sus fans en su primer show en River Plate.
           </p>
-          <p className="authorName">Author / Marquee</p>
+          <p className="authorName">Morena Peretz</p>
         </div>
       </div>
       </section>
