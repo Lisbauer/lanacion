@@ -1,0 +1,70 @@
+.navbarContent {
+    @include flexbox(flex, space-around, center);
+  
+    h1 {
+      @include text-styles($primaryColor, 2.6em);
+      margin: 0;
+      cursor: pointer;
+    }
+  }
+  
+  .sectionButton {
+    height: auto;
+    padding: 11px;
+    border: none;
+    border-radius: 7%;
+    font-weight: 700;
+    font-size: 0.9em;
+    transition: 0.4s;
+    cursor: pointer;
+    &:hover {
+      transition: 0.7s;
+      background: $primaryBgColor;
+    }
+  }
+  
+  .searchField {
+    background: $secondaryBgColor;
+    border: none;
+    border-radius: 7%;
+    font-weight: 700;
+    width: 110px;
+    text-align: center;
+    height: auto;
+    transition: 0.4s;
+    &:hover {
+      transition: 0.7s;
+      background: $primaryBgColor;
+    }
+  }
+  
+  .subscribeButton {
+    background: #ffff24;
+    border: 1px solid #c4c4c465;
+    transition: 0.5s;
+    &:hover {
+      transition: 0.5s;
+      background: #dcdc2062;
+      color: rgba(0, 0, 0, 0.874);
+    }
+  }
+  
+  .loginButton {
+    background: white;
+    color: #0250c9;
+    border: 1px solid #0250c9;
+    transition: 0.5s;
+    &:hover {
+      transition: 0.5s;
+      background: #0252c91b;
+    }
+  }
+  
+  .financialInfo {
+    background: $secondaryBgColor;
+    @include flexbox(flex, space-evenly, center);
+    font-family: $fontFamilySecondBase;
+    height: 40px;
+    margin-top: 13px;
+  }
+  

@@ -1,0 +1,17 @@
+.leftFocusedArticleContent{
+    @include flex (row, center, center);
+    display: flex;
+    gap: 40px;
+    margin-top: 90px;
+    font-family: $fontFamilySecondBase;
+}
+.sideArticleLeft{
+    display: flex;
+    flex-direction: column;
+    width: 40%; 
+    & h2{
+    text-align: left;
+    font-size: 1.5em;
+    font-family: $fontFamilyBase;
+    }
+}

@@ -1,0 +1,20 @@
+.cardBox {
+    @include flex(column, center, center);
+    background: $cards;
+    display: flex;
+    & img {
+      width: 330px;
+      height: 410px;
+    }
+    & p {
+      text-align: start;
+      letter-spacing: 1px;
+      width: 310px;
+      font-size: 0.9em;
+      background: $cards;
+      color: white;
+      margin: 0;
+      padding: 10px;
+    }
+  }
+  

@@ -1,0 +1,35 @@
+.eclipseNew{
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: $fontFamilySecondBase;
+}
+.eclipseNew{
+    @include flex(column, center, center);
+    background-color: #F2F2F2;
+    display: flex;
+    font-family: $fontFamilySecondBase;
+    & p{
+    text-align: center;
+    margin: 0;
+    font-size: 1.1em;
+    width: 50%;
+    padding: 20px;
+}
+}
+.homeTitle{
+    @include text(center, center, #1C1C1F);
+    display: flex;
+    height: 80px;
+    font-family: $fontFamilyBase;
+    & h2{
+        color: white;
+        font-size: 1.7em;
+    }
+}
+.publicity{
+    @include text(center, center, #ffffff);
+    display: flex;
+}

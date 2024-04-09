@@ -12,12 +12,6 @@
     text-decoration: none;
     color: #0250C9;
 }
-.footerLineContent{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
 .iconsBox{
     display: flex;
     gap: 30px;

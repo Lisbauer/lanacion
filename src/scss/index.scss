@@ -1,0 +1,15 @@
+/*abstracts*/
+@import './abstracts/variables';
+@import './abstracts/mixins';
+
+/*base*/
+@import './base/resets';
+
+/*components*/
+@import './navbar';
+@import './home';
+@import './firstNew';
+@import './articlecard';
+@import './leftfocusedarticle';
+@import './cardgroupcolor';
+@import './footer';

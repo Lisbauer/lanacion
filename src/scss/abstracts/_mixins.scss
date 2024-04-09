@@ -1,0 +1,89 @@
+// Mixin para los display flex
+@mixin flex($direction, $justify, $align) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+// Mixin para estilos flexbox para el navbar
+@mixin flexbox($display, $justify-content, $align-items) {
+  display: $display;
+  justify-content: $justify-content;
+  align-items: $align-items;
+}
+
+// Mixin para estilos de texto para NAVBAR
+@mixin text-styles($color, $font-size) {
+  color: $color;
+  font-size: $font-size;
+}
+
+// Mixin para flex con bg
+@mixin text($justify, $text, $bg) {
+  display: flex;
+  justify-content: $justify;
+  text-align: $text;
+  background: $bg;
+}
+
+// definir la fuente y el margen superior
+@mixin font-and-margin($font-family, $margin-top) {
+  font-family: $font-family;
+  margin-top: $margin-top;
+}
+
+// definir la caja de categorias
+@mixin categories-box {
+  display: flex;
+  gap: 20px;
+  font-size: 1em;
+  flex-wrap: wrap;
+}
+
+// estilos de enlaces en la caja de categorias
+@mixin category-link {
+  text-decoration: none;
+  color: #0250c9;
+}
+
+// definir la caja de iconos
+@mixin icons-box {
+  display: flex;
+  gap: 30px;
+  font-size: 1.4em;
+}
+
+//  estilos de títulos
+@mixin title-styles($font-size, $color, $font-family) {
+  font-size: $font-size;
+  color: $color;
+  font-family: $font-family;
+}
+
+//  estilos e imagenes en la caja googleapple
+@mixin google-apple-images {
+  display: flex;
+  gap: 30px;
+}
+
+// estilos de enlaces en la línea de texto
+@mixin text-line-link {
+  text-decoration: none;
+  color: #0250c9;
+  font-weight: 700;
+}
+
+// estilos de la línea de texto
+@mixin text-line {
+  display: flex;
+  gap: 20px;
+  font-size: 0.8em;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+// estilos de copyright
+@mixin copyright-styles {
+  font-size: 0.8em;
+  margin-top: 20px;
+}
