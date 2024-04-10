@@ -59,14 +59,14 @@ const Footer = () => {
 
         <div className="footerLineContent">
           <div className="iconsBox">
-            <FontAwesomeIcon icon={faFacebook} />
-            <FontAwesomeIcon icon={faTwitter} />
-            <FontAwesomeIcon icon={faInstagram} />
+            <a href="" target="blank"><FontAwesomeIcon icon={faFacebook} /></a>
+            <a href="" target="blank"><FontAwesomeIcon icon={faTwitter} /></a>
+            <a href="" target="blank"><FontAwesomeIcon icon={faInstagram} /></a>
           </div>
           <h3>LA NACION</h3>
           <div className="googleApple">
-            <img src="../images/googleplay.png" alt="google play" />
-            <img src="../images/appstore.png" alt="apple store" />
+            <a href="" target="blank"><img src="../images/googleplay.png" alt="google play" /></a>
+            <a href="" target="blank"><img src="../images/appstore.png" alt="apple store" /></a>
           </div>
         </div>
 

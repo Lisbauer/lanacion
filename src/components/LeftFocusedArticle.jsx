@@ -6,10 +6,12 @@ const LeftFocusedArticle = () => {
     <>
       <div className="leftFocusedArticleContent">
         <article className="sideArticleLeft">
-          <h2>
-            Leo le dio un consejo a la chica que detuvo el match de Inter Miami
-            contra Colorado Rapids.
-          </h2>
+          <a className="titleColor" href="" target="blank">
+            <h2>
+              Leo le dio un consejo a la chica que detuvo el match de Inter
+              Miami contra Colorado Rapids.
+            </h2>
+          </a>
           <p className="messiText">
             No es nada inusual encontrarse con escenas como esta en los partidos
             de Lionel Messi, donde los aficionados irrumpen en el campo para
@@ -30,25 +32,46 @@ const LeftFocusedArticle = () => {
             aficionada resalta la cercanía y el cariño que el jugador tiene
             hacia sus seguidores.
           </p>
-          <p className="authorName">Patricio Perez</p>
+          <a href="" target="blank">
+            <p className="authorName">Patricio Perez</p>
+          </a>
           <img src="../images/messi.jpg" alt="messi" />
         </article>
 
         <div className="rightFocusedArticleContent">
           <article className="sideArticleRight">
-            <img className="imageRight" src="../images/pelota.png" alt="imagen de pelota" />
-            <h4>
-            La fecha 13 de la Copa de la Liga Profesional 2024: partidos, horarios, posiciones, promedios y más
-            </h4>
-            <p className="authorName">Patricio Perez</p>
+            <img
+              className="imageRight"
+              src="../images/pelota.png"
+              alt="imagen de pelota"
+            />
+            <a className="titleColor" href="" target="blank">
+              <h4>
+                La fecha 13 de la Copa de la Liga Profesional 2024: partidos,
+                horarios, posiciones, promedios y más
+              </h4>
+            </a>
+            <a href="" target="blank">
+              <p className="authorName">Patricio Perez</p>
+            </a>
           </article>
 
           <article className="sideArticleRight">
-            <img className="imageRight" src="../images/martino.png" alt="gerardo martino" />
-            <h4>
-              La picante palabra que usó Tata Martino para referirse al escándalo de Messi con el DT de Rayados: “Lo que tiene que ver con la…"
-            </h4>
-            <p className="authorName">Ana Rey</p>
+            <img
+              className="imageRight"
+              src="../images/martino.png"
+              alt="gerardo martino"
+            />
+            <a className="titleColor" href="" target="blank">
+              <h4>
+                La picante palabra que usó Tata Martino para referirse al
+                escándalo de Messi con el DT de Rayados: “Lo que tiene que ver
+                con la…"
+              </h4>
+            </a>
+            <a href="" target="blank">
+              <p className="authorName">Ana Rey</p>
+            </a>
           </article>
         </div>
       </div>

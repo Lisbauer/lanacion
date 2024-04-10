@@ -7,7 +7,7 @@ import Home from './components/Home.jsx';
 import ArticleCard from './components/ArticleCard.jsx';
 import Footer from './components/Footer.jsx';
 import CardGroupColor from './components/CardGroupColor.jsx';
-import FirstNew from './components/FirstNew.jsx';
+import FirstNews from './components/FirstNews.jsx';
 import LeftFocusedArticle from './components/LeftFocusedArticle.jsx';
 
 
@@ -15,7 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Navbar/>
     <Home/>
-    <FirstNew/>
+    <FirstNews/>
     <ArticleCard/>    
     <LeftFocusedArticle/>
     <CardGroupColor/>

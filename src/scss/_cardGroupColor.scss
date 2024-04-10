@@ -1,21 +1,25 @@
 .cardBox {
-    @include flex(column, center, center);
+  @include flex(column, center, center);
+  background: $cards;
+  display: flex;
+  color: white;
+  transition: 0.5s;
+  &:hover {
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.369) 3px 2px 4px;
+  }
+  & img {
+    width: 330px;
+    height: 410px;
+  }
+  & p {
+    text-align: start;
+    letter-spacing: 1px;
+    width: 310px;
+    font-size: 0.9em;
     background: $cards;
-    display: flex;
     color: white;
-    & img {
-      width: 330px;
-      height: 410px;
-    }
-    & p {
-      text-align: start;
-      letter-spacing: 1px;
-      width: 310px;
-      font-size: 0.9em;
-      background: $cards;
-      color: white;
-      margin: 0;
-      padding: 10px;
-    }
+    margin: 0;
+    padding: 10px;
+  }
 }
-  

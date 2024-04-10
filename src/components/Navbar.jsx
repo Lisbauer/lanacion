@@ -15,16 +15,24 @@ const Navbar = () => {
           </button>
           <input type="text" placeholder="BUSCAR" className="searchField" />
         </div>
-        <h1>LA NACION</h1>
+        <a href="">
+          <h1>LA NACION</h1>
+        </a>
         <div className="rightButtons">
-          <button className="subscribeButton">SUSCRIBITE</button>
-          <button className="loginButton">INGRESAR</button>
+          <a href="">
+            <button className="subscribeButton">SUSCRIBITE</button>
+          </a>
+          <a href="">
+            <button className="loginButton">INGRESAR</button>
+          </a>
         </div>
       </div>
 
       <section className="navbarLine financialInfo">
         <div className="dolarBox">
-          <h4 className="dolarBoxTitle">Dolar:</h4>
+          <a href="">
+            <h4 className="dolarBoxTitle">Dolar:</h4>
+          </a>
           <h4>
             <span style={{ fontWeight: "100" }}>BNA:</span> $00,00 / $00,00
           </h4>
@@ -42,7 +50,9 @@ const Navbar = () => {
 
         <div className="newsletters">
           <a href="#">
-            <h4>Recibi Newsletters</h4>
+            <a href="">
+              <h4>Recibi Newsletters</h4>
+            </a>
           </a>
         </div>
 

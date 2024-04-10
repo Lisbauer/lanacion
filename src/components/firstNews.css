@@ -1,4 +1,4 @@
-.FirstNewTitle{
+.firstNewsTitle{
     width: 70%;
 }
 .notaryBox{
@@ -25,10 +25,10 @@
     }
 }
 @media (max-width: 600px) {
-    .FirstNewContent h2{
+    .firstNewsContent h2{
         font-size: 2em;
     }
-    .FirstNewContent p{
+    .firstNewsContent p{
         font-size: 1em;
     }
     .notaryTextBox h3{

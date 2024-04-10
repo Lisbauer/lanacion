@@ -3,43 +3,33 @@
   display: flex;
   flex-wrap: wrap;
 }
-
 .footerContent {
   @include font-and-margin($fontFamilySecondBase, 150px);
 }
-
 .categoriesBox {
   @include categories-box;
 }
-
 .categoriesBox a {
   @include category-link;
 }
-
 .iconsBox {
   @include icons-box;
 }
-
 .footerLineContent h3 {
   @include title-styles(1.7em, #006998, "Arial, Helvetica, sans-serif");
 }
-
 .googleApple {
   @include google-apple-images;
 }
-
 .googleApple img {
   width: 110px;
 }
-
 .spanLine {
   @include text-line;
 }
-
 .spanLine a {
   @include text-line-link;
 }
-
 .copyright {
   @include copyright-styles;
 }
