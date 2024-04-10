@@ -6,7 +6,6 @@ import Navbar from './components/Navbar.jsx';
 import Home from './components/Home.jsx';
 import ArticleCard from './components/ArticleCard.jsx';
 import Footer from './components/Footer.jsx';
-
 import CardGroupColor from './components/CardGroupColor.jsx';
 import FirstNew from './components/FirstNew.jsx';
 import LeftFocusedArticle from './components/LeftFocusedArticle.jsx';
