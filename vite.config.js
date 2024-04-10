@@ -1,20 +1,7 @@
-import { defineConfig } from 'vite';
-import vue from '@vitejs/plugin-vue';
-import styleImport from 'vite-plugin-style-import';
-import vueJsx from '@vitejs/plugin-vue-jsx';
-import path from 'path';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react-swc'
 
+// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [
-    vue(),
-    vueJsx(),
-    styleImport({
-      // ...
-    }),
-  ],
-  resolve: {
-    alias: {
-      '@': path.resolve(__dirname, './src'),
-    },
-  },
-});
+  plugins: [react()],
+})
